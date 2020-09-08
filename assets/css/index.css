@@ -1,15 +1,63 @@
 body {
     background: url(../images/login_bg.jpg )no-repeat center;
     background-size: cover;
+    position: relative;
+
 }
 
 .logo {
     padding-top: 30px;
 }
 
-.login {}
+.layui-main {
+    height: 100%;
+}
+
+.login {
+    height: 310px;
+    width: 400px;
+    padding: 0 40px;
+    box-sizing: border-box;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
 
 .title {
     height: 60px;
     background: url(../images/login_title.png)no-repeat center;
+}
+
+.reg {
+    display: none;
+}
+
+.layui-input {
+    padding-left: 36px;
+}
+
+.loga,
+.rega {
+    margin-top: 12px;
+    font-size: 16px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.layui-btn-normal {
+    width: 100%;
+}
+
+.layui-form-item {
+    position: relative;
+}
+
+.layui-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
